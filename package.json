@@ -1,0 +1,29 @@
+{
+  "name": "clianimals",
+  "version": "1.0.0",
+  "description": "Animals command line interface",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoisBasset/CLIAnimals.git"
+  },
+  "keywords": [
+    "animals",
+    "cli"
+  ],
+  "author": "FrancoisBasset",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrancoisBasset/CLIAnimals/issues"
+  },
+  "homepage": "https://github.com/FrancoisBasset/CLIAnimals#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^8.32.0",
+    "mocha": "^10.2.0"
+  }
+}
